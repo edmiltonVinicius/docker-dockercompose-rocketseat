@@ -1,0 +1,8 @@
+Biuld a image
+    docker biuld -t nome-da-image .
+        o '.' diz aonde o dockerfile está, nesse caso na raiz do projeto
+
+Run container
+    docker run -p 3000:3000 -d node/rocketseat
+        o -p 3000:3000 diz para ouvir a porta 3000 e apontar para a porta 3000 do docker
+        o -d é o nome da imagem que criamos, nesse caso se chama node/rocketseat
